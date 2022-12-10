@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *Main - prints last digit of a random number
+ *main - Prints last digit of a random number
  *
- *Return: return 0
+ *Return: Return 0
  */
 int main(void)
 {
 	int n;
-	int last
+	int last;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
